@@ -126,7 +126,7 @@ var PostgresCRDResourceValidation = apiextv1beta1.CustomResourceValidation{
 				Type: "string",
 				Enum: []apiextv1beta1.JSON{
 					{
-						Raw: []byte(`"acid.zalan.do/v1"`),
+						Raw: []byte(`"cloudlinux.com/v1"`),
 					},
 				},
 			},
@@ -791,7 +791,7 @@ var OperatorConfigCRDResourceValidation = apiextv1beta1.CustomResourceValidation
 				Type: "string",
 				Enum: []apiextv1beta1.JSON{
 					{
-						Raw: []byte(`"acid.zalan.do/v1"`),
+						Raw: []byte(`"cloudlinux.com/v1"`),
 					},
 				},
 			},
